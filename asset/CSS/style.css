@@ -1,0 +1,437 @@
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: bold-one;
+    src: url(../fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #d8e1ff;
+    font-family: regular;
+}
+
+.all-content{
+    overflow-x: hidden;
+    
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: bold-one;
+}
+
+h2{
+    font-size: 55px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+h4{
+    font-size: 45px;
+}
+
+
+h5{
+    font-size: 30px;
+    font-family: bold-one;
+}
+
+h6{
+    font-size: 23px;
+    font-family: bold-one;
+}
+
+p{
+    font-size: 25px;
+    color: #575858;
+    font-weight: 700;
+}
+
+a{
+    color: #3929e1;
+}
+
+button p{
+    
+    color: white;
+    
+}
+
+button{
+    background-color: #3929e1;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    width: 100%;
+}
+
+
+.img img{
+    width: 100%;
+    border-radius: 23px 23px 0px 0px;
+
+}
+
+.img{
+    box-shadow: 0 14px 28px rgba(83, 141, 218, 0.25), 0 10px 10px rgba(241, 241, 242, 0.22);
+    border-radius: 23px;
+}
+
+
+.container{
+    margin: 80px 60px;
+    box-shadow: 0 14px 28px rgba(49, 40, 40, 0.25), 0 10px 10px rgba(201, 206, 223, 0.22);
+    border-radius: 23px;
+}
+
+span{
+    color: #3929e1;
+    font-size: 50px;
+    background-color: #d8e1ff;
+    padding: 25px 26px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.words{
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 0;
+    padding: 40px;
+    border-radius: 0px 0px 23px 23px;
+    
+}
+
+.annual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fe;
+    border-radius: 23px;
+    margin-top: 50px;
+}
+
+
+.annual-text{
+    line-height: 0px;
+    margin-left: 40px;
+}
+
+.change{
+    margin-right: 40px;
+}
+
+.span{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin-top: 50px;
+    box-shadow: 0 14px 28px rgba(48, 49, 49, 0.25), 0 10px 10px rgba(107, 133, 220, 0.22);
+    border-radius: 23px;
+}
+
+button:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 55px;
+        font-family: bold-one;
+    }
+    
+    h2{
+        font-size: 50px;
+    }
+    
+    h3{
+        font-size: 45px;
+    }
+    
+    h4{
+        font-size: 40px;
+    }
+    
+    
+    h5{
+        font-size: 25px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 18px;
+        
+    }
+    
+    p{
+        font-size: 20px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+    
+    span{
+        font-size: 40px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 991px){
+    h1{
+        font-size: 50px;
+        font-family: bold-one;
+    }
+    
+    h2{
+        font-size: 45px;
+    }
+    
+    h3{
+        font-size: 40px;
+    }
+    
+    h4{
+        font-size: 35px;
+    }
+    
+    
+    h5{
+        font-size: 20px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 15px;
+        
+    }
+    
+    p{
+        font-size: 15px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+    
+    span{
+        font-size: 35px;
+        padding: 15px;
+    }
+
+    button{
+        border-radius: 12px;
+    }
+
+    .annual{
+        border-radius: 12px;
+    }
+
+    .annual{
+        margin: 0;
+    }
+
+    button{
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 597px){
+    h1{
+        font-size: 30px;
+        font-family: bold-one;
+    }
+    
+    
+    h5{
+        font-size: 15px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 14px;
+        
+    }
+    
+    p{
+        font-size: 15px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+
+    .container{
+        margin: 20px;
+    }
+    
+    span{
+        font-size: 20px;
+        padding: 15px;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .annual-text{
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    button{
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 486px){
+    h1{
+        font-size: 25px;
+        font-family: bold-one;
+    }
+    
+   
+    
+    h5{
+        font-size: 13px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 12px;
+        
+    }
+    
+    p{
+        font-size: 12px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+    
+    span{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .img img{
+        border-radius: 12px 12px 0px 0px ;
+    }
+
+    .words{
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .words{
+        padding: 25px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 446px){
+    h1{
+        font-size: 20px;
+        font-family: bold-one;
+    }
+    
+   
+    
+    h5{
+        font-size: 13px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 12px;
+        
+    }
+    
+    p{
+        font-size: 12px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+    
+    span{
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .change{
+        margin: 0;
+        margin-right: 5px;
+    }
+
+    
+}
+
+@media (max-width: 361px){
+    h1{
+        font-size: 16px;
+        font-family: bold-one;
+    }
+    
+    
+    
+    h5{
+        font-size: 12px;
+        font-family: bold-one;
+    }
+    
+    h6{
+        font-size: 11px;
+        
+    }
+    
+    p{
+        font-size: 12px;
+        color: #575858;
+        font-weight: 700;
+    }
+    
+    a{
+        color: #3929e1;
+    }
+    
+    span{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    
+    
+    
+}
+
+
